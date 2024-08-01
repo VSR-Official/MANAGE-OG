@@ -1,7 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .LOGO-BOX {
-    width: 100px;
-    height: 100px;
+    width: 38px;
+    height: 38px;
     border-radius: 50%;
     background-image: url(MANAGE-LOGO.svg);
     background-size: cover;
+}
+
+header {
+    background-color: rgb(0, 34, 85);
+    height: 72px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TNB-BOX1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 3%;
+    margin: 0px 3px 0px 0px;
+}
+
+.TNB-BOX2 {
+    height: 40px;
+    width: 46%;
+}
+
+.TNB-BOX2 nav {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+}
+
+.TNB-BOX2 nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    padding: 5px 10px;
+    height: 100%;
+    transition: color 0.3s;
+}
+
+.TNB-BOX2 nav a:hover {
+   color: rgb(214, 214, 214);
+}
+
+.TNB-BOX3 {
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+}
+
+.TNB-BOX3 button {
+    user-select: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    font-size: 22px;
+    width: 20%;
+    height: 40px;
+    border: 1.3px solid white;
+    border-radius: 10em;
+    cursor: pointer;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.TNB-BOX3 button:hover {
+    border-color: rgb(214, 214, 214);
+    color: rgb(211, 211, 211);
 }
