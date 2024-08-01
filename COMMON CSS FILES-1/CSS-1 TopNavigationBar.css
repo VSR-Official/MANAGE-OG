@@ -36,22 +36,19 @@ header {
 
 .TNB-BOX2 nav {
     display: flex;
+    align-items: center;
     justify-content: flex-start;
     height: 100%;
     width: 100%;
 }
 
 .TNB-BOX2 nav a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-weight: lighter;
     font-size: 18px;
     text-decoration: none;
     font-family: sans-serif;
     color: white;
-    padding: 5px 10px;
-    height: 100%;
+    margin: 0px 5px;
     transition: color 0.3s;
 }
 
